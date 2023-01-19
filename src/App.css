@@ -1,0 +1,85 @@
+/* Customize your main colors in :root variables */
+:root {
+  --main-background-color: #343a50;
+  --card-background-color: transparent;
+  --countdown-background-color: #433765;
+  --main-text-color: #f7f6f4;
+  --title-text-color: #d66006;
+}
+
+body {
+  /*  background-color:var(--main-background-color);*/
+  background: url("img/landingpage.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: "Bohemian", cursive !important;
+  font-size: 1.1em;
+}
+
+* {
+  font-family: "Bohemian", cursive !important;
+}
+
+@font-face {
+  font-family: "Bohemian";
+  src: url("./Bohemian Typewriter.ttf");
+  font-weight: bold;
+}
+
+h2,
+p {
+  color: var(--main-text-color);
+}
+
+h3 {
+  font-weight: normal;
+}
+
+#test div {
+  background-color: transparent !important;
+}
+
+#test div {
+  color: transparent !important;
+}
+
+@media only screen and (max-width: 600px) {
+  #test a {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 2000px) {
+  body {
+    background: url("img/landingpage.png");
+    background-size: cover 100%;
+    background-repeat: no-repeat;
+  }
+}
+
+#test .wallet-adapter-button {
+  background-color: #73c1a4 !important;
+  border-radius: 0px !important;
+  color: black !important;
+  font-weight: bold;
+}
+
+#test2 div {
+  margin-left: auto;
+  flex: none;
+}
+
+#testing button {
+  background-color: #73c1a4 !important;
+  color: black !important;
+  font-size: 36px !important;
+}
+
+#testing button:hover{
+  background-color: green !important;
+}
+#label {
+  color: #73c1a4 !important;
+  font-size: 48px !important;
+  margin-top: 36px;
+}

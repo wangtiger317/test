@@ -1,0 +1,15 @@
+{
+  "short_name": "Immortals Incubat000r",
+  "name": "Immortals Incubat000r",
+  "icons": [
+    {
+      "src": "immortalslogo.png",
+      "type": "image/png",
+      "sizes": "358x358"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
